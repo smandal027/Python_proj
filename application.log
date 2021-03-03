@@ -1,0 +1,7 @@
+2021-03-01 14:07:08=> ERROR AssertionError -> True is not false
+2021-03-02 14:02:07=> INFO Executing the Test Case -> TF1_CHK_PALIN
+2021-03-02 14:07:08=> ERROR AssertionError -> True is not false
+2021-03-02 14:07:09=> INFO Test Case -> TF1_CHK_PALIN has been completed
+2021-03-02 02:07:09=> INFO Executing the Test Case -> TF2_CHK_PALIN
+2021-03-02 02:07:09=> INFO Test Case -> TF2_CHK_PALIN has been completed
+2021-03-02 16:03:08=> FAIL AssertionError -> True is not false
