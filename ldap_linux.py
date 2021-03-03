@@ -7,7 +7,7 @@ port = 22
 username = "test"
 password = "password"
 ssh.connect(host, port, username, password)
-ssh.exec_command('sudo yum install sssd ssd-tools')
+ssh.exec_command('sudo yum install sssd sssd-tools')
 ssh.exec_command('cp /etc/ldap.conf /etc/ldap_orig')
 sftp = ssh.open_sftp()
 fileObject = sftp.file('/etc/ldap.conf','a')
